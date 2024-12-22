@@ -3,8 +3,13 @@
    ```bash
    pip install -r requirements.txt
    ```
+2. Set up the database:
+   ```bash
+   flask db init
+   flask db migrate
+   flask db upgrade
    ```
-2. Start the server:
+3. Start the server:
    ```bash
    python run.py
    ```
